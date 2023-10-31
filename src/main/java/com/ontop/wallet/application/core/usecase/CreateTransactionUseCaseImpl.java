@@ -17,7 +17,7 @@ import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;
 
-@Component //remover
+@Component
 public class CreateTransactionUseCaseImpl implements CreateTransactionUseCase {
 
     private TransactionPersistencePort transactionPersistencePort;

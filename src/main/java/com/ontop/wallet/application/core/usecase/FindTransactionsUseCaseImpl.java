@@ -13,7 +13,7 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.Optional;
 
-@Component //remover
+@Component
 public class FindTransactionsUseCaseImpl implements FindTransactionsUseCase {
 
     private TransactionPersistencePort transactionPersistencePort;
